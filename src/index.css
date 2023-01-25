@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  margin-top: 30px;
+  overflow: none;
+}
+
+.btn{
+  /* height: 65px; */
+background: gainsboro;
+border-radius: 9px;
+padding: 15px;
+/* display: flex; */
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: center;
+justify-content: center;
+/* flex-flow: row nowrap; */
+position: relative;
+white-space: nowrap;
+background: rgba(22, 22, 26, 0.04);
+line-height: 48px;
+height: 65px;
+border: 1px solid transparent;
+min-width: auto;
+font-size: 14px;
+border-radius: 16px;
+padding: 8px 18px;
+  padding-left: 18px;
+font-weight: 900;
+font-family: inherit;
+transition: all 0.15s ease-in-out 0s;
+transform-origin: center center 0px;
+user-select: none;
+}
+.Search{
+  width: 87%;
+margin-left: 24px;
+height: 41px;
+position: relative;
+-moz-box-pack: center;
+justify-content: center;
+background: rgba(22, 22, 26, 0.04);
+border: 1px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+transition: all 0.15s ease-in-out 0s;
+overflow: hidden;
+min-height: 48px;
+padding: 8px 18px;
+border-radius: 16px;
+outline:none;
+font-size: 14px;
+}
+input[type=text]:focus {
+  border: 1px solid black;
+}
+.Menu-container{
+   height: 559px;
+  /* position: absolute; */
+  position: relative;
+  width:500px;
+  background-color: whitesmoke;
+  top:20px;
+  border : .5px solid black;
+  padding:20px;
+  margin-left: 20px;
+  border-radius: 20px;
+
+}
+
+.menu-name{
+  margin-top:20px;
+  
+  border-bottom: 0.5px solid black;
+  /* background-color: blue; */
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-name:last-child{
+  border:none;
+}
+.card-collection{
+  display: flex;
+  flex-direction: initial;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left:40px;
+ 
+}
+.card p{
+  margin-left:20px ;
+}
+.card{
+  background-color: black;
+margin: 20px;
+margin-left: 10px;
+border-radius: 10px;
+height: 450px;
+color: white;
+text-align: left;
+
+}
+.card img{
+  height:300px;
+  border-radius: 10px;;
+  padding:20px;
+  width:300px;
+  background-color: lavender;
+  
+}
+.site-body{
+  display: flex;
+}
