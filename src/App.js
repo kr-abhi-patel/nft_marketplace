@@ -24,8 +24,11 @@ function App() {
       <Button onClick={ChangeText} buttonText={buttonText}/> 
       <Search/>
       <div className='site-body'>
+     
       {showMenu && <MenuContainer/>}
-      <Cards/>
+      {/* <Cards/> */}
+  
+   
       </div>
      
     </div>

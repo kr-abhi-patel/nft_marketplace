@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import SubMenu from "./SubMenu";
 const MenuContainer = () =>{
   
     
@@ -12,6 +13,7 @@ const MenuContainer = () =>{
         <Menu menu_name="Type"/>
         <Menu menu_name="Option"/>
         <Menu menu_name="Collection"/>
+        <SubMenu/>
      </div>
      </>
     )

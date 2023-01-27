@@ -3,7 +3,7 @@ const Button = ({buttonText,onClick}) =>{
     
  return(
     <>
-     <button onClick={onClick} className="btn">
+     <button onClick={onClick} className="btn menu-btn">
         {buttonText}
         </button>
     </>
